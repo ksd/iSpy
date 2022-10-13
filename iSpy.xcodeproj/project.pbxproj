@@ -11,6 +11,7 @@
 		44E1CA5728F7F8C600F8EAA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1CA5628F7F8C600F8EAA3 /* ContentView.swift */; };
 		44E1CA5928F7F8C800F8EAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E1CA5828F7F8C800F8EAA3 /* Assets.xcassets */; };
 		44E1CA5C28F7F8C800F8EAA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E1CA5B28F7F8C800F8EAA3 /* Preview Assets.xcassets */; };
+		44E1CA6328F7F8FC00F8EAA3 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1CA6228F7F8FC00F8EAA3 /* LocationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		44E1CA5628F7F8C600F8EAA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44E1CA5828F7F8C800F8EAA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E1CA5B28F7F8C800F8EAA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44E1CA6228F7F8FC00F8EAA3 /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				44E1CA5428F7F8C600F8EAA3 /* iSpyApp.swift */,
+				44E1CA6228F7F8FC00F8EAA3 /* LocationController.swift */,
 				44E1CA5628F7F8C600F8EAA3 /* ContentView.swift */,
 				44E1CA5828F7F8C800F8EAA3 /* Assets.xcassets */,
 				44E1CA5A28F7F8C800F8EAA3 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E1CA5728F7F8C600F8EAA3 /* ContentView.swift in Sources */,
+				44E1CA6328F7F8FC00F8EAA3 /* LocationController.swift in Sources */,
 				44E1CA5528F7F8C600F8EAA3 /* iSpyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +274,7 @@
 				DEVELOPMENT_TEAM = TF3KX6TP3E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please giv mig lov til at sende dine koordinater til CIA";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +304,7 @@
 				DEVELOPMENT_TEAM = TF3KX6TP3E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please giv mig lov til at sende dine koordinater til CIA";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
